@@ -61,5 +61,4 @@ open class BaseCoreDataRepository<T:CDRepresentable>: BaseAbstractRepository whe
     public func get(predicate: NSPredicate) -> T? {
         return self.getManagedObjects(predicate: predicate).first?.asDomain()
     }
-
 }
