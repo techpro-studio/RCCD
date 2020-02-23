@@ -3,9 +3,7 @@ import CoreData
 import RxSwift
 
 
-
-
-extension BaseCoreDataRepository {
+public extension BaseCoreDataRepository {
 
     func subscribeFor(fetchRequest: NSFetchRequest<T.CoreDataType>,
                        sectionNameKeyPath: String? = nil,
