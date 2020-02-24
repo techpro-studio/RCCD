@@ -9,7 +9,7 @@ import Foundation
 import RCKit
 import CoreData
 
-open class BaseCoreDataRepository<T:CDRepresentable>: BaseAbstractRepository where T.CoreDataType.DomainType == T, T.Identifier {
+open class BaseCoreDataRepository<T:CDRepresentable>: BaseAbstractRepository where T.CoreDataType.DomainType == T{
 
     public let managedObjectContextFactory: ManagedObjectContextFactory
 
