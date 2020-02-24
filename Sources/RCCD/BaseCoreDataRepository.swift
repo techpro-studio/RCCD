@@ -38,7 +38,7 @@ open class BaseCoreDataRepository<T:CDRepresentable>: BaseAbstractRepository whe
     }
 
     private func getIdPredicate(id: T.Identifier) -> NSPredicate {
-        return NSPredicate(format: "\(T.CoreDataType.primaryKey))=\(id)")
+        return NSPredicate(format: "\(T.CoreDataType.primaryKey)=\(id)")
     }
 
     public func remove(id: T.Identifier) {
