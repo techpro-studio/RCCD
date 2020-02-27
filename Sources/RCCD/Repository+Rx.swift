@@ -67,12 +67,6 @@ private final class FetchedResultsControllerEntityObserver<T: CDRepresentable> :
     public func dispose() {
         frc.delegate = nil
     }
-
-    deinit {
-        #if DEBUG
-            print("Deinited \(type(of: self))")
-        #endif
-    }
 }
 
 
