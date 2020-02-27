@@ -1,9 +1,8 @@
 .DS_Store
 .swiftpm/
-Carthage/
+/Carthage
 Package.resolved
 Cartfile.resolved
 /.build
 /Packages
-/*.xcodeproj
 xcuserdata/

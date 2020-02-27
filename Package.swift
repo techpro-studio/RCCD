@@ -13,7 +13,7 @@ let package = Package(
             targets: ["RCCD"]),
     ],
     dependencies: [
-         .package(path: "/Users/alex/Dev/libs/CDPersistence"),
+         .package(url: "https://github.com/techpro-studio/CDPersistence", from: "0.0.2"),
          .package(url: "https://github.com/techpro-studio/RCKit", from: "0.0.6"),
     ],
     targets: [
