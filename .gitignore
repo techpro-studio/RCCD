@@ -1,8 +1,8 @@
 .DS_Store
-.swiftpm/
 /Carthage
 Package.resolved
 Cartfile.resolved
 /.build
+/.swiftpm
 /Packages
 xcuserdata/
