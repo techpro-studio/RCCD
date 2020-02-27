@@ -1,6 +1,7 @@
 import Foundation
 import CoreData
 import RxSwift
+import CDPersistence
 
 
 public extension BaseCoreDataRepository {

@@ -13,13 +13,14 @@ let package = Package(
             targets: ["RCCD"]),
     ],
     dependencies: [
-         .package(url: "https://github.com/techpro-studio/RCKit", from: "0.0.5"),
+         .package(path: "/Users/alex/Dev/libs/CDPersistence"),
+         .package(url: "https://github.com/techpro-studio/RCKit", from: "0.0.6"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "RCCD",
-            dependencies: ["RCKit"]),
+            dependencies: ["RCKit", "CDPersistence"]),
     ]
 )
